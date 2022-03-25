@@ -15,5 +15,5 @@ console.log(menuOn, hamburgerMenu, menuClose);
 //Event listener
 
 menuOn.addEventListener("click", function () {
-  hamburgerMenu.querySelector("hamburger-menu").style.display = "block";
+  hamburgerMenu.querySelector(div.hamburger - menu.add("hamburger-menu"));
 });
