@@ -12,8 +12,12 @@ let menuClose = document.querySelector(".fas.fa-times");
 
 console.log(menuOn, hamburgerMenu, menuClose);
 
-//Event listener
+//Event listeners
 
 menuOn.addEventListener("click", function () {
-  hamburgerMenu.querySelector(div.hamburger - menu.add("hamburger-menu"));
+  hamburgerMenu.style.display = "inline-block";
+});
+
+menuClose.addEventListener("click", function () {
+  hamburgerMenu.style.display = "none";
 });
