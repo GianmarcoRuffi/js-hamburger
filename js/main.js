@@ -15,5 +15,5 @@ console.log(menuOn, hamburgerMenu, menuClose);
 //Event listener
 
 menuOn.addEventListener("click", function () {
-  hamburgerMenu.getElementById("demo").innerHTML = "Hello World";
+  hamburgerMenu.querySelector("hamburger-menu").style.display = "block";
 });
