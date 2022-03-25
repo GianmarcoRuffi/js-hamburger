@@ -14,8 +14,6 @@ console.log(menuOn, hamburgerMenu, menuClose);
 
 //Event listener
 
-menuOn.addEventListener("click", openMenu);
-
-function openMenu() {
-  document.getElementById("hamburger-menu").innerHTML = "";
-}
+menuOn.addEventListener("click", function () {
+  hamburgerMenu.getElementById("demo").innerHTML = "Hello World";
+});
