@@ -8,7 +8,7 @@ let menuOn = document.querySelector(".fas.fa-bars");
 
 let hamburgerMenu = document.querySelector(".hamburger-menu");
 
-let menuClose = document.querySelector(".fas.fa-times");
+let menuClose = document.querySelector(".close");
 
 console.log(menuOn, hamburgerMenu, menuClose);
 
